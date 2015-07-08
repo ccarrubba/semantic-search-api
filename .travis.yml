@@ -10,7 +10,7 @@ before_install:
  - env
  
   - wget http://grid.ct.infn.it/statistics/ecj.jar
- - sudo cp ecj.jar /usr/share/ant/lib/
+  - sudo cp ecj.jar /usr/share/ant/lib/
 
 
 
