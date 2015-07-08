@@ -8,11 +8,10 @@ before_install:
  - sudo apt-get install -y ant
  - sudo apt-get install -y ecj
  - env
- 
-  - wget http://grid.ct.infn.it/statistics/ecj.jar
-  - sudo cp ecj.jar /usr/share/ant/lib/
 
-
+# Get the ecj.jar
+ - wget http://grid.ct.infn.it/statistics/ecj.jar
+ - sudo cp ecj.jar /usr/share/ant/lib/
 
  
 install:
