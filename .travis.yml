@@ -18,7 +18,7 @@ before_install:
 
 
 install:
- - ant deploy
+ - ant test
 
 
 notifications:
