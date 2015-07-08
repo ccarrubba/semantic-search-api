@@ -1,6 +1,8 @@
 language: java
 
-
+jdk:
+ - openjdk6
+ - openjdk7
 
 before_install: 
  - sudo apt-get update -qq
@@ -40,7 +42,8 @@ before_install:
 
 # Building the semantic-search-api
 install:
- - cd liferay-plugins-sdk-6.1.1/portlets/semantic-search-api
+ - ant test
+ 
 
 
 notifications:
